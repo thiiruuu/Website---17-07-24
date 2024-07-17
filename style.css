@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+   
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+header{
+    background-color: rgb(17, 18, 18);
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px ;
+    padding-right: 20px;
+    align-items: center;
+}
+footer{
+    background-color: rgb(17, 18, 18);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px ;
+    padding-right: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+     margin-right: 130px;
+   font-weight: bold;
+   font-size: large;
+
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color: rgb(245, 111, 255);
+}
+.klogo{
+    height: 130px;
+    width: 170px;
+    border-radius: 12px;
+    padding-left: 40px;
+}
+.profile1{
+    height: 550px;
+    border-radius: 15px;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    padding: 30px;
+    width:1200px;
+}
+.p1content{
+    word-spacing: 7px;
+    font-size: 18px;
+    width: 650px;
+}
+.nature{
+    height: 600px;
+    border-radius: 15px;
+}
+.photos1{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   
+   
+}
+.photos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.flowers{
+    height: 600px;
+    border-radius: 15px;
+}
+.pdiv1{
+    color: white;
+    background-color: rgb(17, 18, 18);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 140px;
+}
