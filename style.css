@@ -5,6 +5,7 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
+    
 }
 .main{
     display: flex;
@@ -15,7 +16,7 @@ body{
     
 }
 header{
-    background-color: rgb(17, 18, 18);
+    background-color: rgb(0, 0, 0);
     height: 120px;
     width: 100%;
     display: flex;
@@ -26,7 +27,7 @@ header{
     align-items: center;
 }
 footer{
-    background-color: rgb(17, 18, 18);
+    background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -54,7 +55,7 @@ a:hover{
     color: rgb(245, 111, 255);
 }
 .klogo{
-    height: 130px;
+    height: 123px;
     width: 170px;
     border-radius: 12px;
     padding-left: 40px;
